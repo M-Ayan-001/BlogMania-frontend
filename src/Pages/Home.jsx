@@ -29,7 +29,7 @@ const Home = () => {
 
                     {
                         blogs.length === 0 ? (
-                            <h1 className='text-2xl font-bold tracking-tighter w-full text-center'>No Blogs Found</h1>
+                            <h1 className='text-2xl font-bold tracking-tighter w-full h-full text-center'>No Blogs Found</h1>
                         ) : (
                             blogs.map((blog) =>
                             (
