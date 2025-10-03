@@ -24,7 +24,7 @@ const Myblogs = () => {
             .catch((err) => {
                 console.log(err);
             })
-    })
+    }, [])
 
 
     return (
