@@ -31,6 +31,7 @@ const Navbar = () => {
                 alert(res.data.message)
                 setId('')
                 navigate('/', { replace: true })
+                window.location.reload()
             })
             .catch((err) => {
                 console.log(err);
