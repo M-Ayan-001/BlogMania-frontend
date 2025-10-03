@@ -23,7 +23,7 @@ const Navbar = () => {
             .catch((err) => {
                 console.log(err);
             })
-    })
+    }, [])
 
     const handleLogout = () => {
         axios.get(`${API}/user/logout`, { withCredentials: true })
