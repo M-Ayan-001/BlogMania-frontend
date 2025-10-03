@@ -24,7 +24,7 @@ const MyDislikedblogs = () => {
             .catch((err) => {
                 console.log(err);
             })
-    }, [])
+    })
 
     return (
         <>
